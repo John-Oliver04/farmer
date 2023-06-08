@@ -13,8 +13,10 @@
                 </div>
             </div>
         </div>
+        
     </div>
     <div class="" >
+
 
 
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
@@ -38,7 +40,6 @@
                         <li class="list-group-item">Birthday: {{Auth::user()->birthday}}</li>
                         <li class="list-group-item">Contacts: {{Auth::user()->contact}}</li>
                         <li class="list-group-item">RSBSA No.: {{Auth::user()->rsbsa}}</li>
-
                     </ul>
                 </div>
             </div>
@@ -215,6 +216,7 @@
         </div>
     </div>
     {{-- End Damages Report --}}
+
 
 
 
